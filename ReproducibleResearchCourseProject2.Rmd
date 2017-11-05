@@ -9,9 +9,9 @@ output:
 
 #Analysis of the Population Health and Economic Impact of United States Storm Events
 
-##Synopsis
+##Overview
 
-This report uses the NOAA Storm Events database to measure the population health and economic impact of storm events in the United States. Storm Data is provided by the National Weather Service (NWS) and contain statistics on personal injuries and damage estimates. The data began as early as 1950 through to the present, updated monthly with up to a 120 day delay possible. All analysis is performed with the R programming language.
+This report will investigate the exponential distribution in R and compare it to the Central Limit Theorem. We will investigate the normality of means from multiple, randomly generated exponential means. Accordint to the Central Limit Theorem, We expect the distribution of our randomly generated exponential means to be normal.
 
 ## Setup
 
