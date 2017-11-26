@@ -9,17 +9,17 @@ output:
 
 #Analysis of the Population Health and Economic Impact of United States Storm Events
 
-##Overview
+##Synopsis
 
-This report will investigate the exponential distribution in R and compare it to the Central Limit Theorem. We will investigate the normality of means from multiple, randomly generated exponential means. Accordint to the Central Limit Theorem, We expect the distribution of our randomly generated exponential means to be normal.
+This report uses the NOAA Storm Events database to measure the population health and economic impact of storm events in the United States. Storm Data is provided by the National Weather Service (NWS) and contain statistics on personal injuries and damage estimates. The data began as early as 1950 through to the present, updated monthly with up to a 120 day delay possible. All analysis is performed with the R programming language.
 
 ## Setup
 
-We will first prepare the workspace environment by setting global options, and installing and loading required libraries
+We will first prepare the workspace environment by setting global options, and installing and loading required libraries.
 
 ### Set Global Options
 
-Establish global options for the report output
+Establish global options for the report output.
 
 ```{r setupknitr}
 list.of.packages <- c("knitr")
@@ -31,7 +31,7 @@ knitr::opts_chunk$set(fig.width=8, fig.height=4, fig.path='figures/ReproducibleR
 
 ### Prepare Workspace and Load Libraries
 
-Clear any existing variables from the workspace, set the working directory, and install required libraries if neccessary
+Clear any existing variables from the workspace, set the working directory, and install required libraries if neccessary.
 
 ```{r load-packages}
 #Clear variables
